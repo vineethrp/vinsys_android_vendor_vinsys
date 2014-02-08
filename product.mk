@@ -2,7 +2,7 @@
 SUPERUSER_EMBEDDED := true
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.vinsys.superuser
 
-ROM_NAME := Popins
+ROM_NAME := PopinS
 ROM_VERSION := 0.1.0
 ROM_TAG := Alpha
 
