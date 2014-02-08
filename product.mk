@@ -2,7 +2,9 @@
 SUPERUSER_EMBEDDED := true
 SUPERUSER_PACKAGE_PREFIX := com.android.settings.vinsys.superuser
 
-POPINS_VERSION := 0.1.0 (PopinS Alpha)
+ROM_NAME := Popins
+ROM_VERSION := 0.1.0
+ROM_TAG := Alpha
 
 PRODUCT_COPY_FILES += \
     vendor/vinsys/prebuilt/bootanimation/$(BOOTANIMATION_RESOLUTION).zip:system/media/bootanimation.zip \
@@ -14,5 +16,4 @@ PRODUCT_PACKAGES += \
     su
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.root_access=1 \
-    ro.build.popins_version=$(POPINS_VERSION)
+    persist.sys.root_access=1
